@@ -1,0 +1,17 @@
+.slide 
+{
+    display: none;
+    margin: 50px;
+}
+
+.question 
+{
+    padding: 25px;
+}
+
+.answer 
+{
+    padding: 25px;
+    display: none;
+    background-color: lightgray;
+}

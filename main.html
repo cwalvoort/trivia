@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="data-thanksgiving-2020.js" ></script>
+      
+    </head>
+<title id="pageTitle"></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="main.css">
+<body>
+
+<h2 id="headerTitle" class="w3-center"></h2>
+
+<h3 class="w3-center">
+  Question <span id="questionNumber"></span> of <span id="totalQuestions"></span>
+</h3>
+
+<div class="w3-center">
+  <button class="w3-button w3-black" onclick="startTimer()">Start Timer</button>
+  <button class="w3-button w3-black" onclick="showAnswer()">Show Answer</button>
+</div>
+
+<h3 id="timer" class="w3-center">:20</h3>
+
+
+<div class="w3-content w3-display-container">
+  <button class="w3-button w3-black w3-display-left" style="height: 100%" onclick="plusDivs(-1)">&#10094;</button>
+
+  <div id="slides"></div>
+
+  <button class="w3-button w3-black w3-display-right" style="height: 100%" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<div class="w3-content w3-display-container">
+  <h4>Sources</h4>
+  <ul id="sources"></ul>
+</div>
+
+
+<script src="main.js" ></script>
+
+</body>
+</html>
